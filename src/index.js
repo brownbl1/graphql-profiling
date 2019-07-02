@@ -10,7 +10,7 @@ const resolvers = {
       return { echo: `Hello ${name || 'World'}` }
     },
   },
-  Hello: {
+  HelloResponse: {
     slowField: async () => {
       await sleep(0.5)
       return 'this is slower ...'
