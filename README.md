@@ -10,7 +10,7 @@ Visit `http://localhost:4000` and run the following query:
 
 ```graphql
 {
-  hello(name: "Ben Rogers") {
+  hello(name: "Ben") {
     echo
     slowField
   }
@@ -20,3 +20,5 @@ Visit `http://localhost:4000` and run the following query:
 On https://engine.apollographql.com/ find your service and click on the metrics tab.
 
 You'll see trace information about your request.
+
+![image](https://user-images.githubusercontent.com/2136925/60532319-0c4a4980-9ccb-11e9-8acd-9d478ef70251.png)
