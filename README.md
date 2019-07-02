@@ -12,7 +12,7 @@ Visit `http://localhost:4000` and run the following query:
 {
   hello(name: "Ben") {
     echo
-    slowField
+    slowField # optionally exclude this field
   }
 }
 ```
